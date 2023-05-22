@@ -1,0 +1,4 @@
+stars = "" # define empty string to start with
+for i in range(5):  # for i varying from 1 to 5 on each iteration respectively
+ stars = stars + "*"  # stars string grows by 1 * (thus becoming *, **, ***, ****, *****)
+ print(stars)         # current iteration stars string is printed
